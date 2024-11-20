@@ -1,3 +1,19 @@
 body {
-    background-color: greenyellow;
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    text-align: center;
+}
+
+.navbarList {
+    display: flex;
+    justify-content: space-evenly;
+    background: greenyellow;
+    box-shadow: 0px 0px 3px;
+    padding: 5px;
 }
