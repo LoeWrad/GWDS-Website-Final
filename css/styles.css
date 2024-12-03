@@ -1,12 +1,12 @@
 header{
-    background-color: aquamarine;
-    height: 100px;
+    background-color: lightgrey;
+    height: 0px;
 }
 
 
 body {
-    background-color: lightgrey;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: slategrey;
 }
 
 
@@ -48,14 +48,28 @@ h1 {
     margin-right: auto;
 
 }
+.section-one {
+    display: flex;
+    background-image: url("https://placedog.net/");
+    background-color: lightgrey;
+}
 
-.sectionThree {
-    background-color: slategray;
-    height: 100px;
+.section-two {
+    background-color: darkslategrey;
+    height: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mintcream;
+    padding: 20px;
+}
+.section-two-text {
+    display: flex;    
 }
 
 footer {
     background-color: darkslategrey;
     height: 50px;
 }
+
+
+/* Carp */
 
