@@ -6,7 +6,7 @@ header{
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: slategrey;
+    background-color: lightgrey;
 }
 
 
@@ -50,24 +50,57 @@ h1 {
 }
 .section-one {
     display: flex;
-    background-image: url("https://placedog.net/");
-    background-color: lightgrey;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.section-two {
+.homebox {
+    display: block;
+    flex-wrap: wrap;
     background-color: darkslategrey;
     height: 500px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: mintcream;
     padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
-.section-two-text {
-    display: flex;    
+
+.container {
+    display: flex;
+    background-color: darkslategrey;
+    height: 500px;
+    width: 600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mintcream;
+    padding: 20px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+.container-image {
+   max-width: 20%;
+   max-height: 20%
+}
+
+.container-text {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mintcream;
+    text-align: right;
+    width: auto;
+    height: auto;
 }
 
 footer {
     background-color: darkslategrey;
-    height: 50px;
+    height: 10px;
 }
 
 
