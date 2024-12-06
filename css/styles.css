@@ -73,20 +73,21 @@ h1 {
     display: flex;
     background-color: darkslategrey;
     height: 500px;
-    width: 600px;
+    width: 800px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: mintcream;
     padding: 20px;
+    box-shadow: black 0px 0px 3px;
     
     margin-left: auto;
     margin-right: auto;
-    justify-content: center;
+    justify-content: left;
 }
 
 
 .container-image {
-   max-width: 20%;
-   max-height: 20%
+    /* box-shadow: black 3px 3px 3px; */
+    
 }
 
 .container-text {
