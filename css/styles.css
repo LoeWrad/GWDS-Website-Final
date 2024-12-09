@@ -123,4 +123,29 @@ footer {
     height: 100px;
 }
 
+.coding-container {
+    display: flex;
+    background-color: darkslategrey;
+    height: 1000px;
+    width: 1500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mintcream;
+    padding: 20px;
+    box-shadow: black 0px 10px 20px;
+    vertical-align: middle;
+    
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
 
+.coding-container-text {
+    vertical-align: bottom;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: mintcream;
+    text-align: center;
+    height: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+}
