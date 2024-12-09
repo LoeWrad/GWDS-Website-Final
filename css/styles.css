@@ -18,11 +18,14 @@ h1 {
 }
 
 .navbarList {
+    position: sticky;
+    top: 10px;
     display: flex;
     justify-content: space-evenly;
     background: darkslategray;
-    box-shadow: 0px 0px 3px;
+    box-shadow: 0px 0px 10px;
     padding: 10px;
+    z-index: 100;
 }
 
 .navbarItem {
@@ -46,6 +49,14 @@ h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 50px;
+    box-shadow: black, 0px, 5px 5px;
+    transition-duration: .2s;
+    height: 100%;
+}
+
+.titleGraphic:hover {
+    transform: scale(1.1);
 
 }
 .section-one {
@@ -73,11 +84,12 @@ h1 {
     display: flex;
     background-color: darkslategrey;
     height: 500px;
-    width: 800px;
+    width: 1000px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: mintcream;
     padding: 20px;
-    box-shadow: black 0px 0px 3px;
+    box-shadow: black 0px 10px 20px;
+    vertical-align: middle;
     
     margin-left: auto;
     margin-right: auto;
@@ -86,24 +98,29 @@ h1 {
 
 
 .container-image {
-    /* box-shadow: black 3px 3px 3px; */
-    
+    vertical-align: middle;
+    box-shadow: black 3px 3px 3px;
+    transition-duration: .2s;
+
+}
+
+.container-image:hover {
+    transform: scale(1.05);
 }
 
 .container-text {
-    display: flex;
+    display: grid;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: mintcream;
     text-align: right;
-    width: auto;
     height: auto;
+    margin-right: 10px;
+    margin-left: 100px;
 }
 
 footer {
-    background-color: darkslategrey;
-    height: 10px;
+    background-color: slategrey;
+    height: 100px;
 }
 
-
-/* Carp */
 
