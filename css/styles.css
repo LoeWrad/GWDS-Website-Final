@@ -120,19 +120,26 @@ h1 {
 
 footer {
     background-color: slategrey;
-    height: 100px;
+    height: 50px;
+    box-shadow: 0px 0px 10px;
+}
+
+footer-text-left {
+    color: mintcream;
+    text-size-adjust: 5px;
 }
 
 .coding-container {
     display: flex;
+    flex-direction: column;
     background-color: darkslategrey;
-    height: 1000px;
+    height: 700px;
     width: 1000px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: mintcream;
     padding: 20px;
     box-shadow: black 0px 10px 20px;
-    vertical-align: middle;
+    vertical-align: top;
     
     margin-left: auto;
     margin-right: auto;
@@ -140,12 +147,39 @@ footer {
 }
 
 .coding-container-text {
-    vertical-align: bottom;
     display: flex;
+    vertical-align: top;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: mintcream;
     text-align: center;
     height: auto;
-    margin-right: 0px;
-    margin-left: 0px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+
+.coding-embed {
+    display: flex;
+    justify-content: center;
+    vertical-align: bottom;
+    text-align: center;
+    box-shadow: black 3px 3px 3px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-duration: .2s;
+}
+
+.coding-embed:hover {
+    transform: scale(1.05);
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: black;
 }
